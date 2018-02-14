@@ -7,7 +7,7 @@ confflags = --disable-rpath --disable-video-directfb \
             --disable-nas --disable-esd --disable-arts \
             --disable-alsa-shared --disable-pulseaudio \
             --disable-x11-shared --disable-video-opengl --disable-video-rpi \
-            --enable-video-kmsdrm
+            --enable-video-kmsdrm --disable-video-wayland --disable-kmsdrm-shared
 
 %:
 	dh $@ --parallel
